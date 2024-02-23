@@ -6,7 +6,6 @@ searchButton.addEventListener("click", (event) => {
     const searchInput = document.getElementById('searchInput')
     const textInput = document.getElementById('textInput')
 
-
     const displayContainer = document.getElementById('displayContainer')
-    displayContainer.innerText = textInput.value
+    displayContainer.innerHTML = textInput.value
 })

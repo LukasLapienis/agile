@@ -1,0 +1,27 @@
+body {
+    background-color:darkblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#loginContainer {
+    height: 50vh;
+}
+
+input {
+    border: 1px solid white;
+    background-color: transparent;
+    color: white;
+}
+
+#loginForm {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+a {
+    color: white;
+}
